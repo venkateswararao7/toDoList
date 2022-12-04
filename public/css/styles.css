@@ -1,0 +1,53 @@
+body{
+    
+    text-align: center;
+    background-image: url("../images/todolist.jpg");
+    background-size: cover;
+    font-weight: 3rem;
+}
+
+input{
+  margin-bottom: 1.5rem;
+  
+}
+
+.box-heading{
+  text-align: center;
+  background-color: aqua;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+
+
+.heading{
+  text-align: center;
+  background-color: rgb(21, 255, 255);
+  padding: 4px 5px 4px 5px;
+  margin: 10px 500px 5px 500px;
+  border-radius: 20px;
+
+}
+
+.container{
+  max-width: 400px;
+  margin: 50px auto ;
+  background: white;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  position: static;
+}
+
+.items-list{
+  position: relative;
+  padding-left: 8rem;
+  text-align: left;
+}
+ 
+
+  input:checked+span{
+    text-decoration: line-through;
+    text-decoration-color: rgb(8, 9, 9);
+  }
